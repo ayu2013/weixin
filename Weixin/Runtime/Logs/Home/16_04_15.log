@@ -1,0 +1,321 @@
+[ 2016-04-15T00:05:18+08:00 ] 110.184.205.110 /wx/index.php/Home/index/http_curl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-15T00:05:55+08:00 ] 110.184.205.110 /wx/index.php/Home/index/http_curl
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-04-15T00:11:48+08:00 ] 110.184.205.110 /wx/index.php/Home/index/getWxAToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] curl_errno(): 24 is not a valid cURL handle resource D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 116 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:12:27+08:00 ] 110.184.205.110 /wx/index.php/Home/index/getWxAToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] curl_errno(): 24 is not a valid cURL handle resource D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 116 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:13:29+08:00 ] 110.184.205.110 /wx/index.php/Home/index/getWxAToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] curl_errno(): 24 is not a valid cURL handle resource D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 116 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:15:40+08:00 ] 110.184.205.110 /wx/index.php/Home/index/getWXAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:getWXAccessToken
+
+[ 2016-04-15T00:15:47+08:00 ] 110.184.205.110 /wx/index.php/Home/index/getWXAccessToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] curl_errno(): 24 is not a valid cURL handle resource D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 116 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-15T00:19:07+08:00 ] 110.184.205.110 /wx/index.php/Home/index/getWxAToken
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:getWxAToken
+
+[ 2016-04-15T00:32:40+08:00 ] 58.247.206.147 /wx/index.php/Home/index/?signature=2d1db22bf32de878d877d3e777ba9f937b543793&echostr=6304278974350491305&timestamp=1460651560&nonce=1665796344
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+
+[ 2016-04-15T00:33:43+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=5c6cf6bc2de0ebf66e4751db047432c1aebfc132&timestamp=1460651623&nonce=1681318608&encrypt_type=aes&msg_signature=ea69fc263b1c683ba790b58ab3681596bc603ed0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:34:10+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=9faef23f1db0e27080b1e10acc57480a88bb0973&timestamp=1460651650&nonce=339986883&encrypt_type=aes&msg_signature=f8188b11e6419501290b331e4ef1f2621a5d8b4c
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:34:15+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=7b59fd4b36a1ac30467a5ba6e7e3a1189983c403&timestamp=1460651655&nonce=1437319881&encrypt_type=aes&msg_signature=08382080c8df0fe6966c689bcc847d7b268e25b1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:34:16+08:00 ] 101.226.33.218 /wx/index.php/Home/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: timestamp D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 18 行.
+NOTIC: [8] Undefined index: nonce D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 19 行.
+NOTIC: [8] Undefined index: signature D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 20 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-15T00:34:21+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=9226c1bd8b8ea417f71ea0195408bcc58ef40b14&timestamp=1460651661&nonce=1621717291&encrypt_type=aes&msg_signature=6963b136ba2a11a9ea12c3ec0a21a12ba3239546
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-15T00:39:30+08:00 ] 101.226.103.70 /wx/index.php/Home/index/?signature=10a4bfb4a09ff1c3baec9b2f9274ca502839fcd9&echostr=5442880969530918867&timestamp=1460651970&nonce=1821290873
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+
+[ 2016-04-15T00:39:41+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=9e05e6d3990ad89be5024ddfe9574eb2499c7132&timestamp=1460651980&nonce=1942511906&encrypt_type=aes&msg_signature=af181c554ffdb75854aefe523b3c82d0f6125f24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:39:59+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=de6eb6f0c43359ce487237b7a5495a724d53b32c&timestamp=1460651999&nonce=213235640&encrypt_type=aes&msg_signature=e2bce733195763256ca90c4d171ddfbae3f4b094
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:40:03+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=3d90943bc019c6cf6bb120617c7e463bed1f4299&timestamp=1460652003&nonce=1195490300&encrypt_type=aes&msg_signature=8610dbc34427ecabdc2ceccdc6c7335bba57b674
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-15T00:40:08+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=efc805114596ac78b33e1ca6999ddb6a7bf60613&timestamp=1460652008&nonce=499542428&encrypt_type=aes&msg_signature=621e0cf834d26737c8c8abc81e0fa9202e01f8db
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-15T00:40:13+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=9d6e8df9eff05f983e2fbceaa9374b3a97b2a25b&timestamp=1460652013&nonce=1495422027&encrypt_type=aes&msg_signature=20cc21d3fe5cc4d4f96717f640009dff77071a99
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 108 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:44:24+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=16d7b75e3b00fb0039b95b5439361684a46b5d3e&timestamp=1460652264&nonce=912517662&encrypt_type=aes&msg_signature=956bdbfece508033ab921bc5096db08aaa42513e
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:44:44+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=b4d67fcc162cf4c533a2aee7ef8ed20595d1d6db&timestamp=1460652284&nonce=1582897958&encrypt_type=aes&msg_signature=588ee1eb53c0602245bd72e81628f6de74b148f2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-15T00:46:19+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=06da890bb8e1638b469dce3feb89039c6278b41c&timestamp=1460652379&nonce=1158847205&encrypt_type=aes&msg_signature=74add33586e319438f9d554a3a8608b9abec586d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:46:34+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=2c9d342762d986ae9b1f379e871520eae95b9d68&timestamp=1460652393&nonce=983049408&encrypt_type=aes&msg_signature=7d773cf579f83f46ccd9f650a2460179023e043b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-15T00:48:05+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=8ed9824bda5fec1d575a3ade1352dc59732c87f8&timestamp=1460652485&nonce=1395677097&encrypt_type=aes&msg_signature=c5f703e977de857cc51aeb7cd64a997cca1475b2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-15T04:56:50+08:00 ] 101.226.233.157 /wx/index.php/Home/index/?signature=107717574930fa164747cb192fc30eba14331d7e&timestamp=1460667410&nonce=1676328601&encrypt_type=aes&msg_signature=ea4e977357226b8a31673b12f42bfcecd63b3a4b
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with that of Think\Controller::get() D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 85 行.
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

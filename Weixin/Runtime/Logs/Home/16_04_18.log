@@ -1,0 +1,1233 @@
+[ 2016-04-18T10:44:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: timestamp E:\thinkphp\wx\Weixin\Home\Common\function.php 第 13 行.
+NOTIC: [8] Undefined index: nonce E:\thinkphp\wx\Weixin\Home\Common\function.php 第 14 行.
+NOTIC: [8] Undefined index: signature E:\thinkphp\wx\Weixin\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined index: echostr E:\thinkphp\wx\Weixin\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T10:55:02+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: timestamp E:\thinkphp\wx\Weixin\Home\Common\function.php 第 13 行.
+NOTIC: [8] Undefined index: nonce E:\thinkphp\wx\Weixin\Home\Common\function.php 第 14 行.
+NOTIC: [8] Undefined index: signature E:\thinkphp\wx\Weixin\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined index: echostr E:\thinkphp\wx\Weixin\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 60 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T10:55:23+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T10:56:21+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T10:56:30+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T11:06:18+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T11:10:13+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T11:12:48+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T11:13:03+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T11:19:46+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T11:22:54+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T13:21:21+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:22:34+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:22:38+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:26:30+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:29:47+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:33:37+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 92 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:52:29+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T13:53:40+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:53:53+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:54:13+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:55:29+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:57:08+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:57:45+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:58:40+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T13:58:46+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T13:58:51+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T14:00:18+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T14:01:34+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T14:01:50+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T14:02:41+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T14:29:17+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T14:30:24+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T14:57:59+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:11:05+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-04-18T15:30:27+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:32:55+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:33:44+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T15:33:52+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T15:34:27+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:34:28+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:34:53+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:37:05+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:38:35+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:42:33+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:42:35+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-04-18T15:42:40+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: timestamp E:\thinkphp\wx\Weixin\Home\Common\function.php 第 13 行.
+NOTIC: [8] Undefined index: nonce E:\thinkphp\wx\Weixin\Home\Common\function.php 第 14 行.
+NOTIC: [8] Undefined index: signature E:\thinkphp\wx\Weixin\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined index: echostr E:\thinkphp\wx\Weixin\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T15:42:49+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:01+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:03+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T15:43:15+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:17+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:18+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:19+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:20+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:21+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:23+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:24+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-18T15:43:26+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:27+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:28+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:30+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:31+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:32+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:34+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:34+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:35+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:36+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:37+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:43:38+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:40+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:41+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T15:43:41+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:43:42+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:44:08+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:44:48+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [2] curl_errno(): 27 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:44:53+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [2] curl_errno(): 27 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:49:18+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [2] curl_errno(): 27 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:51:05+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:51:07+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:51:21+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-18T15:51:37+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T15:54:06+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-18T15:54:44+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T17:34:08+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: timestamp E:\thinkphp\wx\Weixin\Home\Common\function.php 第 13 行.
+NOTIC: [8] Undefined index: nonce E:\thinkphp\wx\Weixin\Home\Common\function.php 第 14 行.
+NOTIC: [8] Undefined index: signature E:\thinkphp\wx\Weixin\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined index: echostr E:\thinkphp\wx\Weixin\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 60 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 86 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-18T17:34:13+08:00 ] 127.0.0.1 /index.php/home/index/get
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 101 行.
+NOTIC: [8] Undefined index: openid E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 97 行.
+NOTIC: [2] curl_errno(): 26 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

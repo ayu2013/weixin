@@ -1,0 +1,82 @@
+[ 2016-04-14T22:10:05+08:00 ] 58.247.206.152 /wx/index.php/Home/index/index?signature=7e6e9783c2e04f9eef73dab7995b7b14314c9a73&echostr=964924753644072891&timestamp=1460643003&nonce=655523504
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-14T22:10:10+08:00 ] 101.226.103.63 /wx/index.php/Home/index/index?signature=6b1278d5cc0c6b950a4a11e14e37c6db54bc8e9d&echostr=8233536696090617317&timestamp=1460643009&nonce=555510875
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 20 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 25 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Trying to get property of non-object D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Controller\IndexController.class.php 第 53 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-14T22:10:17+08:00 ] 140.207.54.78 /wx/index.php/Home/index/index?signature=6a78b60b1c7ae51da06851d88b40351a7c53260d&echostr=4094785116826500335&timestamp=1460643017&nonce=2015724507
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-14T22:46:47+08:00 ] 58.247.206.147 /wx/index.php/Home/index/?signature=6d40e2ebbbc2e23f7809e5534a74675f1a1d0cac&echostr=3325634874972307423&timestamp=1460645207&nonce=1602376522
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-14T22:46:52+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=5721cd6a8030ca939741e15f00bda1c6818bc822&timestamp=1460645212&nonce=1571623757&encrypt_type=aes&msg_signature=a302e6483bfc5a33898760c675c155b9ea90edfd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-14T23:00:10+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=fcbaf7416eea6928989fbfa8eec8a9b938926fed&timestamp=1460646010&nonce=1222469026&encrypt_type=aes&msg_signature=affa6d3486a3fa9548393e318b45812d5290217a
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-14T23:00:14+08:00 ] 101.226.62.85 /wx/index.php/Home/index/?signature=502b8e1e6ef433b51a5abdcdfe9105f087f6f4fa&timestamp=1460646013&nonce=532378935&encrypt_type=aes&msg_signature=26a970627e7c9cc6fc3c837232410c317570013d
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: echostr D:\wwwroot\scwwwnet\wwwroot\wx\Weixin\Home\Model\IndexModel.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
