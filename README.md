@@ -13,7 +13,7 @@
 *  3、GetWXAccessToken() 获取ACCESS_TOKEN并写入数据库
 *  4、GetWXIPList() 获取微信Ip地址库
 *  5、GetUserList() 拉取用户列表
-*  6、GetUserBase() 用户基本信心
+*  6、GetUserBase() 用户基本信息
 *  7、PostMenu() 创建自定义菜单
 *  8、AddMaterial() 新增永久多媒体素材
 *  9、GetMaterialList() 获取永久素材
