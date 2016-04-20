@@ -30,4 +30,4 @@
 
 ## 联系方式
 
-Email:jasonjeed@hotmail.com，只接收邮件，请勿添加QQ，谢谢理解！
+Email:492775622@qq.com，只接收邮件，请勿添加QQ，谢谢理解！
