@@ -56,7 +56,7 @@ if (!function_exists('CURLPost')) {
         curl_setopt($ch, CURLOPT_URL, $urls);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-        curl_setopt ($ch, CURLOPT_SAFE_UPLOAD, FALSE);//PHP5.6
+        curl_setopt($ch, CURLOPT_SAFE_UPLOAD, FALSE);//PHP5.6
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         // post数据
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -123,19 +123,32 @@ if (!function_exists('GetUserList')) {
         dump($arr);
     }
 }
+
 //拉取用户基本信息，传入用户的OPENID
 if (!function_exists('GetUserBase')) {
-    function GetUserBase($openid)
+    function GetUserBase($OpenId)
     {
         $AccessToken = GetWXAccessToken();
-        $urls = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $AccessToken . "&openid=" . $openid . "&lang=zh_CN";
+        $urls = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $AccessToken . "&openid=" . $OpenId . "&lang=zh_CN";
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
-        //dump($arr);
-        return "昵称：" . $arr['nickname'] . ";所在市区：" . $arr['city'];
+        dump($arr);
     }
 }
 
+//设置用户备注
+if (!function_exists('RemarkUser')) {
+    function RemarkUser($OpenId,$RemarkName)
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/user/info/updateremark?access_token=" . $AccessToken;
+        $post_data = '{"openid":"'.$OpenId.'",
+                        "remark":"'.$RemarkName.'"}';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
 
 //创建自定义菜单
 if (!function_exists('PostMenu')) {
@@ -204,22 +217,22 @@ if (!function_exists('GetMaterialList')) {
         $post_data = '{
                         "type":"image",
                         "offset":0,
-                        "count":10
+                        "count":' . $length . '
                       }';
-        //dump($post_data);
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
-        dump($arr['item']);
+        return $arr['item'];
     }
 }
 
 //调用接口->清零，一个月10次
-if(!function_exists('GoZero')){
-    function GoZero(){
+if (!function_exists('GoZero')) {
+    function GoZero()
+    {
         $AccessToken = GetWXAccessToken();
-        $urls="https://api.weixin.qq.com/cgi-bin/clear_quota?access_token=".$AccessToken;
-        $post_data='{
-            "appid":"'.C("WX_APPID").'";
+        $urls = "https://api.weixin.qq.com/cgi-bin/clear_quota?access_token=" . $AccessToken;
+        $post_data = '{
+            "appid":"' . C("WX_APPID") . '";
         }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);

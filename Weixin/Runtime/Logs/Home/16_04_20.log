@@ -1,0 +1,778 @@
+[ 2016-04-20T06:48:59+08:00 ] ::1 /Home/index/remark?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 131 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0174s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`='pme8G297YGvwi5RmSW9KpLegYheBNb-9qiyp6pv7OuQbF4orNF4SGex-o1he82NyVydp3KWnnogH__CcxAIFEcvIuvx4O-mp4eU69kyNiBfHyn8Q81xwn0faJ_AdgAexDRXdAEAVJP',`accessexpires`='1461113338' WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2016-04-20T06:50:10+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000709s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2016-04-20T06:50:38+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-04-20T06:50:58+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [8] Array to string conversion D:\php\weixins\Weixin\Home\Common\function.php 第 136 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001358s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001507s ]
+
+[ 2016-04-20T06:51:09+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-04-20T06:51:20+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 136 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2016-04-20T06:54:26+08:00 ] ::1 /Home/index/remark?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001395s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2016-04-20T06:54:59+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2016-04-20T06:55:16+08:00 ] ::1 /Home/index/remark?getuserbase=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2016-04-20T06:55:37+08:00 ] ::1 /Home/index/remark?GetUserBase=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2016-04-20T06:56:30+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000435s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2016-04-20T06:56:50+08:00 ] ::1 /Home/index/remark?GetUserBase=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001583s ]
+
+[ 2016-04-20T06:56:51+08:00 ] ::1 /Home/index/remark?getuserbase=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2016-04-20T06:56:54+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-04-20T06:57:15+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000385s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2016-04-20T06:57:29+08:00 ] ::1 /Home/index/GetUserBase?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: openid D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000635s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000695s ]
+
+[ 2016-04-20T06:58:15+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001188s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-04-20T06:58:31+08:00 ] ::1 /Home/index/GetUserBase?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: openid D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2016-04-20T06:58:32+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001563s ]
+
+[ 2016-04-20T06:58:50+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%22%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000379s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002047s ]
+
+[ 2016-04-20T06:59:07+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%22%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000390s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000752s ]
+
+[ 2016-04-20T06:59:39+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%22%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000370s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T06:59:59+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%22%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000388s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:01:22+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%22%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:01:33+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000366s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:01:49+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:02:19+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: $remarkname D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:02:41+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: $remarkname D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:02:49+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: $remarkname D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:02:59+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001185s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: $remarkname D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-04-20T07:03:08+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E2%80%9C%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 138 行.
+NOTIC: [8] Undefined index: $remarkname D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:03:22+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E2%80%9C%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-04-20T07:03:36+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 138 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-04-20T07:04:15+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-04-20T07:04:32+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000362s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000687s ]
+
+[ 2016-04-20T07:05:02+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000552s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001777s ]
+
+[ 2016-04-20T07:05:02+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000684s ]
+
+[ 2016-04-20T07:05:03+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E2%80%9C%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2016-04-20T07:05:14+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001469s ]
+
+[ 2016-04-20T07:05:16+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000417s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2016-04-20T07:05:17+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E2%80%9C%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001993s ]
+
+[ 2016-04-20T07:05:18+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&remarkname=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001245s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2016-04-20T07:05:19+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000760s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2016-04-20T07:05:20+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2016-04-20T07:05:21+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%22%E5%B0%8F%E7%8C%AA%E7%8C%AA%22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2016-04-20T07:05:23+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuDPcbklGiRD6G4T6PXQ3ew8&RemarkName=%E5%B0%8F%E7%8C%AA%E7%8C%AA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2016-04-20T07:05:23+08:00 ] ::1 /Home/index/remark?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2016-04-20T07:05:25+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001293s ]
+
+[ 2016-04-20T07:06:58+08:00 ] ::1 /Home/index/remark?openid=oeFOQuDPcbklGiRD6G4T6PXQ3ew8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: OpenId D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 128 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-04-20T07:07:21+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuGa9tgcekN4WLIV53iuR9Hg?RemarkName=%E5%B0%8F%E7%8B%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2016-04-20T07:07:44+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuGa9tgcekN4WLIV53iuR9Hg?RemarkName=%E5%B0%8F%E7%8B%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000375s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: RemarkName D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 129 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001379s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2016-04-20T07:08:35+08:00 ] ::1 /Home/index/remark?OpenId=oeFOQuGa9tgcekN4WLIV53iuR9Hg&RemarkName=%E5%B0%8F%E7%8B%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001768s ]
+
+[ 2016-04-20T07:08:51+08:00 ] ::1 /Home/index/GetUserBase?OpenId=oeFOQuGa9tgcekN4WLIV53iuR9Hg&RemarkName=%E5%B0%8F%E7%8B%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000348s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+NOTIC: [8] Undefined index: openid D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001426s ]
+
+[ 2016-04-20T07:08:59+08:00 ] ::1 /Home/index/GetUserBase?openid=oeFOQuGa9tgcekN4WLIV53iuR9Hg&RemarkName=%E5%B0%8F%E7%8B%97
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') D:\php\weixins\Weixin\Home\Controller\IndexController.class.php 第 137 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource D:\php\weixins\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+

@@ -93,23 +93,44 @@ class IndexController extends Controller
     //测试ACCESS_TOKEN
     public function get()
     {
-        // $AccessToken=new IndexModel();
-        $openid = $_GET['openid'];
-        $length=$_GET['length'];
-        dump($length);
         //getUserBase($openid);
-        GetMaterialList($length);
+        $length=$_GET['length'];
+        $arr = GetMaterialList($length);
+        dump($arr);
+//        foreach ($arr as $key=>$value){
+//            $data['media_id']=$value['media_id'];
+//            $data['name']=$value['name'];
+//            $data['update_time']=$value['update_time'];
+//            $data['url']=$value['url'];
+//            $str=M('mat')->data($data)->add();
+//        }
     }
 
     //测试新增图片
     public  function  add(){
         $FileName="http://www.jb51.net/images/logo.gif";
-       // dump($FileName);
         $array=array(
             'filename' => '/public/images/1.png',  //国片相对于网站根目录的路径
             'content-type' => 'image/png',  //文件类型
             'filelength' => '3610'         //图文大小
         );
         AddMaterial($array);
+    }
+
+    //清零操作
+    public function GoZero(){
+        GoZero();
+    }
+
+    //备注
+    public function remark(){
+        $OpenId=$_GET['OpenId'];
+        $RemarkName=$_GET['RemarkName'];
+        RemarkUser($OpenId,$RemarkName);
+    }
+    //用户基本信息
+    public function GetUserBase(){
+        $OpenId=$_GET['OpenId'];
+        GetUserBase($OpenId);
     }
 }

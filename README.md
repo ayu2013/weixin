@@ -8,16 +8,17 @@
 
 目前以及开发了验证接口
 
-*  1、Check() 微信校验接口
-*  2、CURLGet()以及CURLPost() 封装CURL==GET 以及CURLPost()
-*  3、GetWXAccessToken() 获取ACCESS_TOKEN并写入数据库
-*  4、GetWXIPList() 获取微信Ip地址库
-*  5、GetUserList() 拉取用户列表
-*  6、GetUserBase() 用户基本信息
-*  7、PostMenu() 创建自定义菜单
-*  8、AddMaterial() 新增永久多媒体素材
-*  9、GetMaterialList() 获取永久素材
-*  10、GoZero() 调用清零接口（一个月只有10次哦）
+*  1、Check() 微信校验接口；
+*  2、CURLGet()以及CURLPost() 封装CURL==GET 以及CURLPost()；
+*  3、GetWXAccessToken() 获取ACCESS_TOKEN并写入数据库；
+*  4、GetWXIPList() 获取微信Ip地址库；
+*  5、GetUserList() 拉取用户列表；
+*  6、GetUserBase() 用户基本信息；
+*  7、PostMenu() 创建自定义菜单；
+*  8、AddMaterial() 新增永久多媒体素材；
+*  9、GetMaterialList() 获取永久素材；
+*  10、GoZero() 调用清零接口（一个月只有10次哦）；
+*  11、RemarkUser() 设置用户别名，传入用户ID和别名既可。
 
 ## 数据库
 
