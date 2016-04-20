@@ -776,3 +776,473 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001251s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
 
+[ 2016-04-20T17:06:43+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [8] Undefined index: access_token E:\thinkphp\wx\Weixin\Home\Common\function.php 第 88 行.
+NOTIC: [8] Undefined index: expires_in E:\thinkphp\wx\Weixin\Home\Common\function.php 第 89 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`=NULL,`accessexpires`='1461143203' WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:07:22+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [8] Undefined index: access_token E:\thinkphp\wx\Weixin\Home\Common\function.php 第 88 行.
+NOTIC: [8] Undefined index: expires_in E:\thinkphp\wx\Weixin\Home\Common\function.php 第 89 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`=NULL,`accessexpires`='1461143241' WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:10:18+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`='uOUIhSEWl2q3DhHBvkR_3SEEWFAGjhdQUVzWAdhh8FDiM_SyAnioeY9UW1bbmHPFZCmsXD2ZLO_0y0fy2VcXLLyPF9nBXjyMBdXXpO_V6Rdry47HSLcfVEvJIXikkh8sXPIeADAGYR',`accessexpires`='1461150618' WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:26:42+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 141 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`='pzrBeecLpglyz69zj0tKEBIZBlsMJ5wsUIJmeiLedB5gKy8g9-RFmWtg6syhoBs7OVZ1U-QDLJduhHLB9hfxk7SxABwJfTDgZQnjSMOalpmKr_WgQnuPioYnY4oO4BhsYEYgAEAOUO',`accessexpires`='1461151602' WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:29:36+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Undefined index: media_id E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:29:55+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNJUjGF4jqg-uqMumicyrM7M
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:30:47+08:00 ] 127.0.0.1 /home/index/get?length=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:31:07+08:00 ] 127.0.0.1 /home/index/get?length=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:37:36+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNJl3Xf3Q52SCfbAeTsRWNoA
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:37:46+08:00 ] 127.0.0.1 /home/index/get?length=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:38:39+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Undefined index: media_id E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-20T17:38:45+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0270s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:40:07+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:40:34+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2016-04-20T17:41:20+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:45:11+08:00 ] 127.0.0.1 /home/index/get?length=5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:46:00+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:46:37+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:48:11+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 143 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:48:36+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:50:36+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T17:52:34+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-04-20T17:53:44+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T17:57:22+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Undefined index: media_id E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:06:26+08:00 ] 127.0.0.1 /home/index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+NOTIC: [8] Undefined index: media_id E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 139 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:06:40+08:00 ] 127.0.0.1 /home/index/gozero
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:06:44+08:00 ] 127.0.0.1 /home/index/gozero
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-20T18:06:57+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:09:51+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:14:33+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0320s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:14:38+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-20T18:14:43+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-04-20T18:15:08+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNNdlcXWes0WicvtD9wnmSgI
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

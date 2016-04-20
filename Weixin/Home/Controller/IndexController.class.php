@@ -133,4 +133,10 @@ class IndexController extends Controller
         $OpenId=$_GET['OpenId'];
         GetUserBase($OpenId);
     }
+
+    //测试
+    public function test(){
+        $MediaId=$_GET['media_id'];
+        GetMaterial($MediaId);
+    }
 }

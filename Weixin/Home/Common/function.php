@@ -208,6 +208,37 @@ if (!function_exists('AddMaterial')) {
         dump($arr);
     }
 }
+
+//获取永久素材
+if (!function_exists('GetMaterial')) {
+    function GetMaterial($MediaId)
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/material/get_material?access_token=" . $AccessToken;
+        $post_data='{
+            "media_id":"'.$MediaId.'"
+        }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//删除永久素材
+if (!function_exists('DelMaterial')) {
+    function DelMaterial($MediaId)
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/material/del_material?access_token=" . $AccessToken;
+        $post_data='{
+            "media_id":"'.$MediaId.'"
+        }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
 //获取素材列表
 if (!function_exists('GetMaterialList')) {
     function GetMaterialList($length)
@@ -233,6 +264,26 @@ if (!function_exists('GoZero')) {
         $urls = "https://api.weixin.qq.com/cgi-bin/clear_quota?access_token=" . $AccessToken;
         $post_data = '{
             "appid":"' . C("WX_APPID") . '";
+        }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//申请微信摇一摇==测试号无法申请
+if(!function_exists('ShakeAround')){
+    function ShakeAround(){
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/shakearound/account/register?access_token=" . $AccessToken;
+        $post_data = '{
+            "name": "丁建",
+            "phone_number": "18980453110",
+            "email": "139087006@qq.com",
+            "industry_id": "0120",
+            "qualification_cert_urls": [
+            ],
+            "apply_reason": "测试微信摇一摇功能,谢谢"
         }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
