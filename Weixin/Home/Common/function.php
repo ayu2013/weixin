@@ -132,7 +132,7 @@ if (!function_exists('GetUserBase')) {
         $urls = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $AccessToken . "&openid=" . $OpenId . "&lang=zh_CN";
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
-        dump($arr);
+        return $arr;
     }
 }
 
