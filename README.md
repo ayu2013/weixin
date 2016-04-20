@@ -18,7 +18,10 @@
 *  8、AddMaterial() 新增永久多媒体素材；
 *  9、GetMaterialList() 获取永久素材；
 *  10、GoZero() 调用清零接口（一个月只有10次哦）；
-*  11、RemarkUser() 设置用户别名，传入用户ID和别名既可。
+*  11、RemarkUser() 设置用户别名，传入用户ID和别名既可；
+*   12、ShakeAround()申请开通微信摇一摇，未测试，测试号没的权限；
+*   13、DelMaterial()根据OpenId删除永久素材；
+*   14、GetMaterial()根据OpenId获取永久素材，一直报NULL,晚点再测。
 
 ## 数据库
 
