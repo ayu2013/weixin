@@ -9,6 +9,6 @@ return array(
     'DB_PORT'=>'3306',
     //微信配置文件
     'WX_TOKEN'=>'weixin',
-    'WX_APPID'=>'你的微信APPID',
+    'WX_APPID'=>'你的微信APPID1',
     'WX_APPSECRET'=>'你的微信APPSCRET',
 );
