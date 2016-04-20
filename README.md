@@ -6,7 +6,7 @@
 
 ## 已有接口
 
-目前以及开发了验证接口
+目前已经开发了的接口，后期会陆续更新：
 
 *  1、Check() 微信校验接口；
 *  2、CURLGet()以及CURLPost() 封装CURL==GET 以及CURLPost()；
