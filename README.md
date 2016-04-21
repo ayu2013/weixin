@@ -38,3 +38,6 @@ Email:492775622@qq.com，只接收邮件，请勿添加QQ，谢谢理解！
 
 ## 测试二维码
 ![image](https://github.com/ayu2013/weixin/blob/master/Public/images/erweima.jpg?raw=true)
+
+## 请问喝杯咖啡吧！
+![image](https://github.com/ayu2013/weixin/blob/master/Public/images/alipay.jpg?raw=true)
