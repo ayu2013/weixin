@@ -1246,3 +1246,21 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
 
+[ 2016-04-20T18:22:31+08:00 ] 127.0.0.1 /home/index/test?media_id=8C9az4AFxe_u7-bs3e_vNPR1pzljmpB5L3PSlOvloYM
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 142 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [8] Undefined index: access_token E:\thinkphp\wx\Weixin\Home\Common\function.php 第 88 行.
+NOTIC: [8] Undefined index: expires_in E:\thinkphp\wx\Weixin\Home\Common\function.php 第 89 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`=NULL,`accessexpires`='1461147751' WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
