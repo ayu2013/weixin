@@ -21,7 +21,8 @@
 *  11、RemarkUser() 设置用户别名，传入用户ID和别名既可；
 *   12、ShakeAround()申请开通微信摇一摇，未测试，测试号没的权限；
 *   13、DelMaterial()根据OpenId删除永久素材；
-*   14、GetMaterial()根据OpenId获取永久素材，一直报NULL,晚点再测。
+*   14、GetMaterial()根据OpenId获取永久素材，一直报NULL,晚点再测----一直反馈为空，没搞明白是怎么回事呢？？;
+*   15、OpenIdSend($MsgArr) 根据openID群发信息（传入群发信息的数组，实现群发功能，目前测试了群发图片、文本）。
 
 ## 数据库
 
@@ -34,3 +35,6 @@
 ## 联系方式
 
 Email:492775622@qq.com，只接收邮件，请勿添加QQ，谢谢理解！
+
+## 测试二维码
+![image](https://github.com/ayu2013/weixin/blob/master/Public/images/erweima.jpg?raw=true)
