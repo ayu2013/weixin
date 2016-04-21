@@ -120,6 +120,18 @@ if (!function_exists('GetUserList')) {
         $urls = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=" . $AccessToken . "&next_openid=";
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
+        return $arr;
+    }
+}
+
+//群发消息(根据OpenID列表群发)
+if(!function_exists('OpenIdSend')){
+    function OpenIdSend($MsgArr){
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/message/mass/send?access_token=" . $AccessToken;
+        $post_data = $MsgArr;
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
         dump($arr);
     }
 }
@@ -209,7 +221,7 @@ if (!function_exists('AddMaterial')) {
     }
 }
 
-//获取永久素材
+//获取永久素材==没数据返回，文档不详？
 if (!function_exists('GetMaterial')) {
     function GetMaterial($MediaId)
     {

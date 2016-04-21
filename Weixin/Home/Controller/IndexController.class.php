@@ -26,15 +26,14 @@ class IndexController extends Controller
                 $Content = "感谢关注我的个人微信，最近进展如下：" . "\n" . "1、完成SDK（接入校验、关注回复、纯文本回复、多图文回复）的接入;" . "\n" . "2、TOKEN、APPID、APPSCRET等写入到配置文件中，以后直接修改配置文件就行了;" . "\n" . "3、采用CURL采集ACCESS_TOKEN，并封装为SDK。";
                 $Subscribe = new IndexModel();
                 $Subscribe->Subscribe($postObj, $Content);
-            }
-            else if(strtolower($postObj->Event) == "click"){
+            } else if (strtolower($postObj->Event) == "click") {
                 switch (strtolower(trim($postObj->EventKey))) {
                     case 'introduct':
-                        $Content="姓名：丁建，职业：web前端+php，年龄：29岁，个人博客：<a href='http://www.sc-www.com'>前端笔记</a>，爱好：打篮球、羽毛球，身高：165cm，体重:65KG。";
+                        $Content = "姓名：丁建，职业：web前端+php，年龄：29岁，个人博客：<a href='http://www.sc-www.com'>前端笔记</a>，爱好：打篮球、羽毛球，身高：165cm，体重:65KG。";
+                        $Subscribe = new IndexModel();
+                        $Subscribe->Subscribe($postObj, $Content);
                         break;
                 }
-                $Subscribe = new IndexModel();
-                $Subscribe->Subscribe($postObj, $Content);
             }
         }
         //自动回复
@@ -82,9 +81,8 @@ class IndexController extends Controller
             }
             $autoMsg = new IndexModel();
             $autoMsg->autoMsg($postObj, $Content);
-        }
-        else if (strtolower($postObj->MsgType) == "image") {
-            $Content="您的图片我们已经收到，谢谢您参与我们的活动！";
+        } else if (strtolower($postObj->MsgType) == "image") {
+            $Content = "您的图片我们已经收到，谢谢您参与我们的活动！";
             $Subscribe = new IndexModel();
             $Subscribe->Subscribe($postObj, $Content);
         }
@@ -94,7 +92,7 @@ class IndexController extends Controller
     public function get()
     {
         //getUserBase($openid);
-        $length=$_GET['length'];
+        $length = $_GET['length'];
         $arr = GetMaterialList($length);
         dump($arr);
 //        foreach ($arr as $key=>$value){
@@ -106,10 +104,60 @@ class IndexController extends Controller
 //        }
     }
 
+    //测试群发图片
+    public function test()
+    {
+        $MsgType=$_GET['msgtype'];
+        switch ($MsgType){
+            case 'image'://图片
+                $MsgArr = '{
+                   "touser":[
+                    "oeFOQuGa9tgcekN4WLIV53iuR9Hg",
+                    "oeFOQuAodWuU6KkReh9MEM3Ca7aE",
+                    "oeFOQuE9GrZzZByf8M_W4_0GPhT4"
+                   ],
+                   "image":{
+                          "media_id":"8C9az4AFxe_u7-bs3e_vNNdlcXWes0WicvtD9wnmSgI"
+                          },
+                   "msgtype":"image"
+                }';
+                OpenIdSend($MsgArr);
+                break;
+            case 'text'://文本
+                $MsgArr = '{
+                   "touser":[
+                    "oeFOQuGa9tgcekN4WLIV53iuR9Hg",
+                    "oeFOQuAodWuU6KkReh9MEM3Ca7aE",
+                    "oeFOQuE9GrZzZByf8M_W4_0GPhT4"
+                   ],
+                   "text":{
+                          "content":"今天是一个好天气"
+                          },
+                   "msgtype":"text"
+                }';
+                OpenIdSend($MsgArr);
+                break;
+            default:
+                $MsgArr = '{
+                   "touser":[
+                    "oeFOQuGa9tgcekN4WLIV53iuR9Hg",
+                    "oeFOQuAodWuU6KkReh9MEM3Ca7aE",
+                    "oeFOQuE9GrZzZByf8M_W4_0GPhT4"
+                   ],
+                   "image":{
+                          "media_id":"8C9az4AFxe_u7-bs3e_vNEO5jWNOutltzloAbyBvTlo"
+                          },
+                   "msgtype":"image"
+                }';
+                OpenIdSend($MsgArr);
+        }
+    }
+
     //测试新增图片
-    public  function  add(){
-        $FileName="http://www.jb51.net/images/logo.gif";
-        $array=array(
+    public function add()
+    {
+        $FileName = "http://www.jb51.net/images/logo.gif";
+        $array = array(
             'filename' => '/public/images/1.png',  //国片相对于网站根目录的路径
             'content-type' => 'image/png',  //文件类型
             'filelength' => '3610'         //图文大小
@@ -118,25 +166,29 @@ class IndexController extends Controller
     }
 
     //清零操作
-    public function GoZero(){
+    public function GoZero()
+    {
         GoZero();
     }
 
     //备注
-    public function remark(){
-        $OpenId=$_GET['OpenId'];
-        $RemarkName=$_GET['RemarkName'];
-        RemarkUser($OpenId,$RemarkName);
+    public function remark()
+    {
+        $OpenId = $_GET['OpenId'];
+        $RemarkName = $_GET['RemarkName'];
+        RemarkUser($OpenId, $RemarkName);
     }
+
     //用户基本信息
-    public function GetUserBase(){
-        $OpenId=$_GET['OpenId'];
+    public function GetUserBase()
+    {
+        $OpenId = $_GET['OpenId'];
         GetUserBase($OpenId);
     }
 
-    //测试
-    public function test(){
-        $MediaId=$_GET['media_id'];
-        GetMaterial($MediaId);
-    }
+//    //测试
+//    public function test(){
+//        $MediaId=$_GET['media_id'];
+//        GetMaterialList($MediaId);
+//    }
 }
