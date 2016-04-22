@@ -88,7 +88,7 @@ class IndexController extends Controller
         }
     }
 
-    //测试ACCESS_TOKEN
+    //测试获取永久素材列表
     public function get()
     {
         //getUserBase($openid);
@@ -104,11 +104,11 @@ class IndexController extends Controller
 //        }
     }
 
-    //测试群发图片
+    //测试群发（图片、图文）
     public function test()
     {
-        $MsgType=$_GET['msgtype'];
-        switch ($MsgType){
+        $MsgType = $_GET['msgtype'];
+        switch ($MsgType) {
             case 'image'://图片
                 $MsgArr = '{
                    "touser":[
@@ -137,32 +137,65 @@ class IndexController extends Controller
                 }';
                 OpenIdSend($MsgArr);
                 break;
-            default:
+            case 'mpnews'://图文消息
                 $MsgArr = '{
                    "touser":[
                     "oeFOQuGa9tgcekN4WLIV53iuR9Hg",
                     "oeFOQuAodWuU6KkReh9MEM3Ca7aE",
                     "oeFOQuE9GrZzZByf8M_W4_0GPhT4"
                    ],
-                   "image":{
-                          "media_id":"8C9az4AFxe_u7-bs3e_vNEO5jWNOutltzloAbyBvTlo"
-                          },
-                   "msgtype":"image"
+                    "mpnews":{
+                      "media_id":"8C9az4AFxe_u7-bs3e_vNBIz5eSsSCYTb1DrValuNUE"
+                   },
+                    "msgtype":"mpnews"
+                }';
+                OpenIdSend($MsgArr);
+                break;
+            default:
+                $MsgArr = '{
+                   
                 }';
                 OpenIdSend($MsgArr);
         }
     }
 
-    //测试新增图片
+    //测试新增永久素材
     public function add()
     {
-        $FileName = "http://www.jb51.net/images/logo.gif";
-        $array = array(
-            'filename' => '/public/images/1.png',  //国片相对于网站根目录的路径
-            'content-type' => 'image/png',  //文件类型
-            'filelength' => '3610'         //图文大小
-        );
-        AddMaterial($array);
+        $MaterialType=$_GET['MaterialType'];//获取素材类型,调用不同的数据
+        if(strtolower($MaterialType)=="image"){
+            $PostData = array(
+                'filename' => '/public/images/2.jpg',  //国片相对于网站根目录的路径
+                'content-type' => 'image/jpeg',  //文件类型
+                'filelength' => '331000'         //图文大小
+            );
+            AddMaterial($PostData,$MaterialType);
+        }
+        else if(strtolower($MaterialType)=="mpnews"){
+            $PostData = '{
+                 "articles": [
+                      {
+                           "title": "今天是一个好天气",
+                           "thumb_media_id": "8C9az4AFxe_u7-bs3e_vNI1Xq04VblMqBqYCSo0yEbQ",
+                           "author": "小叮当",
+                           "digest": "送你一张百度的LOGO吧",
+                           "show_cover_pic": 1,
+                           "content": "今天是一个好天气，从你一张百度的LOGO吧！",
+                           "content_source_url": "http://www.baidu.com"
+                      },
+                      {
+                           "title": "今天我要发大财",
+                           "thumb_media_id": "8C9az4AFxe_u7-bs3e_vNG98Dfcrym49HQBK0zm6MZc",
+                           "author": "小叮当",
+                           "digest": "如果我发财了，送各位一万元",
+                           "show_cover_pic": 1,
+                           "content": "今天我要发大财，如果我发财了，送各位一万元！",
+                           "content_source_url": "http://www.sc-www.com"
+                      },
+                 ]
+            }';
+            AddMaterial($PostData,$MaterialType);
+        }
     }
 
     //清零操作
@@ -171,7 +204,7 @@ class IndexController extends Controller
         GoZero();
     }
 
-    //备注
+    //修改用户备注
     public function remark()
     {
         $OpenId = $_GET['OpenId'];
@@ -179,7 +212,7 @@ class IndexController extends Controller
         RemarkUser($OpenId, $RemarkName);
     }
 
-    //用户基本信息
+    //获取用户基本信息
     public function GetUserBase()
     {
         $OpenId = $_GET['OpenId'];

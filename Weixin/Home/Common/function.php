@@ -208,16 +208,25 @@ if (!function_exists('PostMenu')) {
 
 //新增永久素材素材==除图文
 if (!function_exists('AddMaterial')) {
-    function AddMaterial($array)
+    function AddMaterial($PostData,$MaterialType)
     {
         $AccessToken = GetWXAccessToken();
-        $urls = "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=" . $AccessToken . "&type=image";
-        $file_info = $array;
-        $real_path = "{$_SERVER['DOCUMENT_ROOT']}{$file_info['filename']}";
-        $post_data = array("media" => "@{$real_path}", 'form-data' => $file_info);
-        $output = CURLPost($urls, $post_data);
-        $arr = json_decode($output, true);
-        dump($arr);
+        if(strtolower($MaterialType)=="image"){//图片、语音、视频等接口
+            $urls = "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=" . $AccessToken;
+            $file_info = $PostData;
+            $real_path = "{$_SERVER['DOCUMENT_ROOT']}{$file_info['filename']}";
+            $post_data = array("media" => "@{$real_path}", 'form-data' => $file_info);
+            $output = CURLPost($urls, $post_data);
+            $arr = json_decode($output, true);
+            dump($arr);
+        }
+        else if(strtolower($MaterialType)=="mpnews"){//图文接口
+            $urls = "https://api.weixin.qq.com/cgi-bin/material/add_news?access_token=" . $AccessToken;
+            $post_data = $PostData;
+            $output = CURLPost($urls, $post_data);
+            $arr = json_decode($output, true);
+            dump($arr);
+        }
     }
 }
 
