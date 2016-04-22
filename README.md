@@ -8,25 +8,30 @@
 
 目前已经开发了的接口，后期会陆续更新：
 
-*  1、Check() 微信校验接口；
-*  2、CURLGet()以及CURLPost() 封装CURL==GET 以及CURLPost()；
-*  3、GetWXAccessToken() 获取ACCESS_TOKEN并写入数据库；
-*  4、GetWXIPList() 获取微信Ip地址库；
-*  5、GetUserList() 拉取用户列表；
-*  6、GetUserBase() 用户基本信息；
-*  7、PostMenu() 创建自定义菜单；
-*  8、AddMaterial() 新增永久多媒体素材；
-
-      01、根据素材类型，可以上传图片和图文。
-*  9、GetMaterialList() 获取永久素材；
-*  10、GoZero() 调用清零接口（一个月只有10次哦）；
-*  11、RemarkUser() 设置用户别名，传入用户ID和别名既可；
-*   12、ShakeAround()申请开通微信摇一摇，未测试，测试号没的权限；
-*   13、DelMaterial()根据OpenId删除永久素材；
-*   14、GetMaterial()根据OpenId获取永久素材，一直报NULL,晚点再测----一直反馈为空，没搞明白是怎么回事呢？？;
-*   15、OpenIdSend($MsgArr) 根据openID群发信息（传入群发信息的数组，实现群发功能，目前测试了群发图片、文本）。
+*   1、Check() 微信校验接口；
+*   2、CURLGet()以及CURLPost() 封装CURL==GET 以及CURLPost()；
+*   3、GetWXAccessToken() 获取ACCESS_TOKEN并写入数据库；
+*   4、GetWXIPList() 获取微信Ip地址库；
+*   5、GetUserList() 拉取用户列表；
+*   6、GetUserBase() 用户基本信息；
+*   7、PostMenu() 创建自定义菜单；
+*   8、GoZero() 调用清零接口（一个月只有10次哦）；
+*   9、RemarkUser() 设置用户别名，传入用户ID和别名既可；
+*   10、ShakeAround()申请开通微信摇一摇，未测试，测试号没的权限；
+*   11、OpenIdSend($MsgArr) 根据openID群发信息（传入群发信息的数组，实现群发功能，目前测试了群发图片、文本）。
 
       01、根据需要群发的素材类型，实现群发图文，bingo!
+
+## 素材管理--较多就单独拿出来了
+
+*   1、AddMedia() 增加临时素材
+*   2、GetMedia() 获取临时素材
+*   3、AddMaterial() 新增永久素材(图文以及图片)
+*   4、ModifyMaterial()  修改图文素材---注意只能修改图文素材
+*   5、GetMaterial() 获取永久素材
+*   6、DelMaterial() 删除永久素材
+*   7、GetMaterialCount() 获取永久素材总数
+*   8、GetMaterialList() 获取永久素材列表
 
 ## 数据库
 

@@ -68,6 +68,36 @@ if (!function_exists('CURLPost')) {
     }
 }
 
+//获得微信文件
+if (!function_exists('GetFiles')) {
+    function GetFiles($urls)
+    {
+        $ch = curl_init($urls);
+        curl_setopt($ch, CURLOPT_HEADER, 0);
+        curl_setopt($ch, CURLOPT_NOBODY, 0);    //只取body头
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        $package = curl_exec($ch);
+        $httpinfo = curl_getinfo($ch);
+        curl_close($ch);
+        $imageAll = array_merge(array('header' => $httpinfo), array('body' => $package));
+        return $imageAll;
+    }
+}
+
+//下载微信图片
+if (!function_exists('DownloadFiles')) {
+    function DownloadFiles($filename, $filecontent)
+    {
+        $local_file = fopen($filename, 'w');
+        if (false !== $local_file) {
+            if (false !== fwrite($local_file, $filecontent)) {
+                fclose($local_file);
+            }
+        }
+    }
+}
 //获取ACCESS_TOKEN
 if (!function_exists('GetWXAccessToken')) {
     function GetWXAccessToken()
@@ -125,8 +155,9 @@ if (!function_exists('GetUserList')) {
 }
 
 //群发消息(根据OpenID列表群发)
-if(!function_exists('OpenIdSend')){
-    function OpenIdSend($MsgArr){
+if (!function_exists('OpenIdSend')) {
+    function OpenIdSend($MsgArr)
+    {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/message/mass/send?access_token=" . $AccessToken;
         $post_data = $MsgArr;
@@ -150,12 +181,12 @@ if (!function_exists('GetUserBase')) {
 
 //设置用户备注
 if (!function_exists('RemarkUser')) {
-    function RemarkUser($OpenId,$RemarkName)
+    function RemarkUser($OpenId, $RemarkName)
     {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/user/info/updateremark?access_token=" . $AccessToken;
-        $post_data = '{"openid":"'.$OpenId.'",
-                        "remark":"'.$RemarkName.'"}';
+        $post_data = '{"openid":"' . $OpenId . '",
+                        "remark":"' . $RemarkName . '"}';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
         dump($arr);
@@ -206,12 +237,40 @@ if (!function_exists('PostMenu')) {
     }
 }
 
-//新增永久素材素材==除图文
-if (!function_exists('AddMaterial')) {
-    function AddMaterial($PostData,$MaterialType)
+//新增临时素材,临时素材无删除接口，上传3天后服务器自动删除
+if (!function_exists('AddMedia')) {
+    function AddMedia($PostData, $MediaType)
     {
         $AccessToken = GetWXAccessToken();
-        if(strtolower($MaterialType)=="image"){//图片、语音、视频等接口
+        $urls = "https://api.weixin.qq.com/cgi-bin/media/upload?access_token=" . $AccessToken . "&type=" . $MediaType;
+        $file_info = $PostData;
+        $real_path = "{$_SERVER['DOCUMENT_ROOT']}{$file_info['filename']}";
+        $post_data = array("media" => "@{$real_path}", 'form-data' => $file_info);
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+
+}
+
+//获取临时素材
+if (!function_exists('GetMedia')) {
+    function GetMedia($MediaId)
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "http://api.weixin.qq.com/cgi-bin/media/get?access_token=" . $AccessToken . "&media_id=" . $MediaId;
+        $fileInfo = GetFiles($urls);
+        $filename = time().".jpg";
+        DownloadFiles($filename, $fileInfo["body"]);
+    }
+}
+
+//新增永久素材素材
+if (!function_exists('AddMaterial')) {
+    function AddMaterial($PostData, $MaterialType)
+    {
+        $AccessToken = GetWXAccessToken();
+        if (strtolower($MaterialType) == "image") {//图片、语音、视频等接口
             $urls = "https://api.weixin.qq.com/cgi-bin/material/add_material?access_token=" . $AccessToken;
             $file_info = $PostData;
             $real_path = "{$_SERVER['DOCUMENT_ROOT']}{$file_info['filename']}";
@@ -219,8 +278,7 @@ if (!function_exists('AddMaterial')) {
             $output = CURLPost($urls, $post_data);
             $arr = json_decode($output, true);
             dump($arr);
-        }
-        else if(strtolower($MaterialType)=="mpnews"){//图文接口
+        } else if (strtolower($MaterialType) == "mpnews") {//图文接口
             $urls = "https://api.weixin.qq.com/cgi-bin/material/add_news?access_token=" . $AccessToken;
             $post_data = $PostData;
             $output = CURLPost($urls, $post_data);
@@ -230,14 +288,27 @@ if (!function_exists('AddMaterial')) {
     }
 }
 
-//获取永久素材==没数据返回，文档不详？
+//修改永久图文素材
+if (!function_exists('ModifyMaterial')) {
+    function ModifyMaterial($PostData)
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls="https://api.weixin.qq.com/cgi-bin/material/update_news?access_token=".$AccessToken;
+        $post_data = $PostData;
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//获取永久素材==可以获取图文素材，接口是对的,开发者文档还是没看明白~
 if (!function_exists('GetMaterial')) {
     function GetMaterial($MediaId)
     {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/material/get_material?access_token=" . $AccessToken;
-        $post_data='{
-            "media_id":"'.$MediaId.'"
+        $post_data = '{
+            "media_id":"' . $MediaId . '"
         }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
@@ -251,8 +322,8 @@ if (!function_exists('DelMaterial')) {
     {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/material/del_material?access_token=" . $AccessToken;
-        $post_data='{
-            "media_id":"'.$MediaId.'"
+        $post_data = '{
+            "media_id":"' . $MediaId . '"
         }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
@@ -260,7 +331,17 @@ if (!function_exists('DelMaterial')) {
     }
 }
 
-//获取素材列表
+//获取素材总数
+if(!function_exists('GetMaterialCount')){
+    function GetMaterialCount(){
+        $AccessToken=GetWXAccessToken();
+        $urls="https://api.weixin.qq.com/cgi-bin/material/get_materialcount?access_token=".$AccessToken;
+        $output = CURLGet($urls);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+//获取永久素材列表
 if (!function_exists('GetMaterialList')) {
     function GetMaterialList($length)
     {
@@ -293,8 +374,9 @@ if (!function_exists('GoZero')) {
 }
 
 //申请微信摇一摇==测试号无法申请
-if(!function_exists('ShakeAround')){
-    function ShakeAround(){
+if (!function_exists('ShakeAround')) {
+    function ShakeAround()
+    {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/shakearound/account/register?access_token=" . $AccessToken;
         $post_data = '{

@@ -162,16 +162,15 @@ class IndexController extends Controller
     //测试新增永久素材
     public function add()
     {
-        $MaterialType=$_GET['MaterialType'];//获取素材类型,调用不同的数据
-        if(strtolower($MaterialType)=="image"){
+        $MaterialType = $_GET['MaterialType'];//获取素材类型,调用不同的数据
+        if (strtolower($MaterialType) == "image") {
             $PostData = array(
                 'filename' => '/public/images/2.jpg',  //国片相对于网站根目录的路径
                 'content-type' => 'image/jpeg',  //文件类型
                 'filelength' => '331000'         //图文大小
             );
-            AddMaterial($PostData,$MaterialType);
-        }
-        else if(strtolower($MaterialType)=="mpnews"){
+            AddMaterial($PostData, $MaterialType);
+        } else if (strtolower($MaterialType) == "mpnews") {
             $PostData = '{
                  "articles": [
                       {
@@ -194,7 +193,7 @@ class IndexController extends Controller
                       },
                  ]
             }';
-            AddMaterial($PostData,$MaterialType);
+            AddMaterial($PostData, $MaterialType);
         }
     }
 
@@ -219,9 +218,53 @@ class IndexController extends Controller
         GetUserBase($OpenId);
     }
 
-//    //测试
-//    public function test(){
-//        $MediaId=$_GET['media_id'];
-//        GetMaterialList($MediaId);
-//    }
+    //测试获取永久素材，图文素材可以正常获取
+    public function GetMaterial()
+    {
+        $MediaId = "8C9az4AFxe_u7-bs3e_vNBIz5eSsSCYTb1DrValuNUE";
+        GetMaterial($MediaId);
+    }
+
+    //测试新增临时素材
+    public function AddMedia()
+    {
+        $MediaType = "image";
+        $PostData = array(
+            'filename' => '/public/images/1.png',  //国片相对于网站根目录的路径
+            'content-type' => 'image/png',  //文件类型
+            'filelength' => '3610'         //图文大小
+        );
+        AddMedia($PostData, $MediaType);
+    }
+
+    //测试获取临时素材
+
+    public function GetMedia(){
+        $MediaId="iaDJo-j27vuhG9lVSMmFihkPY4eQVwXu9o570Z7rHKhSNjnF-WxlEwWsLOXPI5Oo";
+        GetMedia($MediaId);
+    }
+
+    //测试修改图文素材
+    public function ModifyMaterial(){
+        $MediaId = "8C9az4AFxe_u7-bs3e_vNBIz5eSsSCYTb1DrValuNUE";
+        $PostData='{
+                     "media_id":"'.$MediaId.'",
+                     "index":0,
+                     "articles": {
+                          "title": "今天是一个很冷的天气",
+                          "thumb_media_id": "8C9az4AFxe_u7-bs3e_vNI1Xq04VblMqBqYCSo0yEbQ",
+                          "author": "admin",
+                          "digest": "送你一张百度的LOGO吧",
+                          "show_cover_pic": 0,
+                          "content": "今天天气不好，还是送你一张百度LOGO！",
+                          "content_source_url": "http://www.qq.com"
+                     }
+        }';
+        ModifyMaterial($PostData);
+    }
+
+    //测试获取素材总数
+    public function GetMaterialCount(){
+        GetMaterialCount();
+    }
 }
