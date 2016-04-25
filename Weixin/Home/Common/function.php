@@ -175,7 +175,7 @@ if (!function_exists('GetUserBase')) {
         $urls = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $AccessToken . "&openid=" . $OpenId . "&lang=zh_CN";
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
-        return $arr;
+        dump($arr);
     }
 }
 
@@ -228,10 +228,25 @@ if (!function_exists('PostMenu')) {
                                     "name": "拍照或者相册发图", 
                                     "key": "rselfmenu_1_1", 
                                     "sub_button": [ ]
+                                },{
+                                     "type":"view",
+                                     "name":"前端笔记",
+                                     "url":"http://192.168.0.38/index.php?m=App&c=Index&a=index"
                                 }]
                          }]
                     }';
         $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//获取自定义菜单
+if (!function_exists('GetMenu')) {
+    function GetMenu(){
+        $AccessToken=GetWXAccessToken();
+        $urls="https://api.weixin.qq.com/cgi-bin/menu/get?access_token=".$AccessToken;
+        $output = CURLGet($urls);
         $arr = json_decode($output, true);
         dump($arr);
     }
@@ -260,7 +275,7 @@ if (!function_exists('GetMedia')) {
         $AccessToken = GetWXAccessToken();
         $urls = "http://api.weixin.qq.com/cgi-bin/media/get?access_token=" . $AccessToken . "&media_id=" . $MediaId;
         $fileInfo = GetFiles($urls);
-        $filename = time().".jpg";
+        $filename = time() . ".jpg";
         DownloadFiles($filename, $fileInfo["body"]);
     }
 }
@@ -293,7 +308,7 @@ if (!function_exists('ModifyMaterial')) {
     function ModifyMaterial($PostData)
     {
         $AccessToken = GetWXAccessToken();
-        $urls="https://api.weixin.qq.com/cgi-bin/material/update_news?access_token=".$AccessToken;
+        $urls = "https://api.weixin.qq.com/cgi-bin/material/update_news?access_token=" . $AccessToken;
         $post_data = $PostData;
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
@@ -332,10 +347,11 @@ if (!function_exists('DelMaterial')) {
 }
 
 //获取素材总数
-if(!function_exists('GetMaterialCount')){
-    function GetMaterialCount(){
-        $AccessToken=GetWXAccessToken();
-        $urls="https://api.weixin.qq.com/cgi-bin/material/get_materialcount?access_token=".$AccessToken;
+if (!function_exists('GetMaterialCount')) {
+    function GetMaterialCount()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/material/get_materialcount?access_token=" . $AccessToken;
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
         dump($arr);
@@ -389,6 +405,34 @@ if (!function_exists('ShakeAround')) {
             "apply_reason": "测试微信摇一摇功能,谢谢"
         }';
         $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//添加客服帐号
+if (!function_exists('AddCustomService')) {
+    function AddCustomService()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/customservice/kfaccount/add?access_token=" . $AccessToken;
+        $post_data = '{
+            "kf_account" : "ayu2014@gh_2486943e383d",
+            "nickname" : "叮当猫爱果冻",
+            "password" : "e10adc3949ba59abbe56e057f20f883e"
+        }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//获取在线客服接待信息
+if(!function_exists('GetOnlineKFList')){
+    function GetOnlineKFList(){
+        $AccessToken=GetWXAccessToken();
+        $urls="https://api.weixin.qq.com/cgi-bin/customservice/getonlinekflist?access_token=".$AccessToken;
+        $output = CURLGet($urls);
         $arr = json_decode($output, true);
         dump($arr);
     }

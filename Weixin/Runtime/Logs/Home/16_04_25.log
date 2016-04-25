@@ -1,0 +1,459 @@
+[ 2016-04-25T10:07:34+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [8] Undefined index: access_token E:\thinkphp\wx\Weixin\Home\Common\function.php 第 118 行.
+NOTIC: [8] Undefined index: expires_in E:\thinkphp\wx\Weixin\Home\Common\function.php 第 119 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`=NULL,`accessexpires`='1461550054' WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:07:54+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+NOTIC: [8] Undefined index: access_token E:\thinkphp\wx\Weixin\Home\Common\function.php 第 118 行.
+NOTIC: [8] Undefined index: expires_in E:\thinkphp\wx\Weixin\Home\Common\function.php 第 119 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`=NULL,`accessexpires`='1461550073' WHERE `appid` = '你的微信APPID' AND `appsecret` = '你的微信APPSCRET' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:10:42+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`='gq5pLqn7Pthzb5Jn1Az1WSXru_shisvstjPpkbxyJQHIWobFAJeUXIFv192pSoO49ImETATpE35mlG3_xNPmMiCYcqu09_4nbCIZu1j1cHTpvjS_wVW83QLiwgcPb9HqCWSgAAATNJ',`accessexpires`='1461557442' WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-04-25T10:12:31+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:12:35+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:15:12+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-25T10:19:08+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:23:09+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:27:48+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:27:51+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-25T10:28:29+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-25T10:31:54+08:00 ] 127.0.0.1 /home/index/get?length=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:32:02+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:35:18+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:35:37+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:50:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 275 行.
+NOTIC: [8] Undefined index: timestamp E:\thinkphp\wx\Weixin\Home\Common\function.php 第 13 行.
+NOTIC: [8] Undefined index: nonce E:\thinkphp\wx\Weixin\Home\Common\function.php 第 14 行.
+NOTIC: [8] Undefined index: signature E:\thinkphp\wx\Weixin\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined index: echostr E:\thinkphp\wx\Weixin\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:58:15+08:00 ] 127.0.0.1 /home/index/GetUserBase?openid=oeFOQuAodWuU6KkReh9MEM3Ca7aE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 276 行.
+NOTIC: [8] Undefined index: OpenId E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T10:58:35+08:00 ] 127.0.0.1 /home/index/GetUserBase?openid=oeFOQuAodWuU6KkReh9MEM3Ca7aE
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 276 行.
+NOTIC: [8] Undefined index: OpenId E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T11:00:40+08:00 ] 127.0.0.1 /home/index/GetUserBase?openid=oeFOQuGa9tgcekN4WLIV53iuR9Hg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 276 行.
+NOTIC: [8] Undefined index: OpenId E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T11:01:45+08:00 ] 127.0.0.1 /home/index/GetUserBase?openid=oeFOQuGa9tgcekN4WLIV53iuR9Hg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 276 行.
+NOTIC: [8] Undefined index: OpenId E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 218 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T11:02:30+08:00 ] 127.0.0.1 /home/index/get?openid=oeFOQuGa9tgcekN4WLIV53iuR9Hg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 280 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T13:21:57+08:00 ] 127.0.0.1 /home/index/PostMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 284 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`='8iqOjAvDE7to35Mt71IXLAU7YxtPDmIUW3oG3g06YfHyVnG-qBv62CHLEVfk2H_9O8Dg2lbbrq4Xp7Pz-xGfQ68YBjcMUTWxwsA4YX3c-gcWh9HROU40hBeT7Dr6LYvOXDCcAEACIH',`accessexpires`='1461568915' WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-04-25T13:27:04+08:00 ] 127.0.0.1 /home/index/GetMenu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 289 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T14:01:49+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 289 行.
+NOTIC: [8] Undefined index: timestamp E:\thinkphp\wx\Weixin\Home\Common\function.php 第 13 行.
+NOTIC: [8] Undefined index: nonce E:\thinkphp\wx\Weixin\Home\Common\function.php 第 14 行.
+NOTIC: [8] Undefined index: signature E:\thinkphp\wx\Weixin\Home\Common\function.php 第 15 行.
+NOTIC: [8] Undefined index: echostr E:\thinkphp\wx\Weixin\Home\Common\function.php 第 16 行.
+NOTIC: [8] Undefined index: HTTP_RAW_POST_DATA E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 18 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 41 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 59 行.
+NOTIC: [8] Trying to get property of non-object E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 84 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T14:44:47+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 289 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-25T14:53:14+08:00 ] 127.0.0.1 /home/index/GetOnlineKFList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T14:57:19+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T15:47:35+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] curl_errno(): 31 is not a valid cURL handle resource E:\thinkphp\wx\Weixin\Home\Common\function.php 第 45 行.
+SQL: UPDATE `accesstoken` SET `accesstoken`='Xkr4T0zrtfUGN7DHHWd0tX5P8BEd6LxYpnKMUwx6oeHlu52K-DBWH7EaNkb6BWov8UUQdRQK_-RQSTVxj3x4HJYeLhXARQv_ef7p9gICwLeDgfxqLMyfMwcZpl-Cf0SgEOGjAGALVN',`accessexpires`='1461577654' WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-04-25T15:53:15+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-04-25T17:14:24+08:00 ] 127.0.0.1 /home/index/AddCustomService
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Home\Controller\IndexController::get() should be compatible with Think\Controller::get($name = '') E:\thinkphp\wx\Weixin\Home\Controller\IndexController.class.php 第 294 行.
+SQL: SHOW COLUMNS FROM `accesstoken` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `accesstoken` WHERE `appid` = 'wx80e3fb27b08918c1' AND `appsecret` = '8fe504cbe457876dc156a41086229492' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

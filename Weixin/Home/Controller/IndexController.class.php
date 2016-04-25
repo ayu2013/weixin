@@ -91,10 +91,11 @@ class IndexController extends Controller
     //测试获取永久素材列表
     public function get()
     {
-        //getUserBase($openid);
-        $length = $_GET['length'];
-        $arr = GetMaterialList($length);
-        dump($arr);
+        $openid = $_GET['openid'];
+        getUserBase($openid);
+//        $length = $_GET['length'];
+//        $arr = GetMaterialList($length);
+//        dump($arr);
 //        foreach ($arr as $key=>$value){
 //            $data['media_id']=$value['media_id'];
 //            $data['name']=$value['name'];
@@ -104,6 +105,20 @@ class IndexController extends Controller
 //        }
     }
 
+    //测试微商城
+    public function PostMenu(){
+        PostMenu();
+    }
+
+    //测试获取菜单
+    public function GetMenu(){
+        GetMenu();
+    }
+
+    //测试获取客服
+    public function GetOnlineKFList(){
+        GetOnlineKFList();
+    }
     //测试群发（图片、图文）
     public function test()
     {
@@ -239,16 +254,18 @@ class IndexController extends Controller
 
     //测试获取临时素材
 
-    public function GetMedia(){
-        $MediaId="iaDJo-j27vuhG9lVSMmFihkPY4eQVwXu9o570Z7rHKhSNjnF-WxlEwWsLOXPI5Oo";
+    public function GetMedia()
+    {
+        $MediaId = "iaDJo-j27vuhG9lVSMmFihkPY4eQVwXu9o570Z7rHKhSNjnF-WxlEwWsLOXPI5Oo";
         GetMedia($MediaId);
     }
 
     //测试修改图文素材
-    public function ModifyMaterial(){
+    public function ModifyMaterial()
+    {
         $MediaId = "8C9az4AFxe_u7-bs3e_vNBIz5eSsSCYTb1DrValuNUE";
-        $PostData='{
-                     "media_id":"'.$MediaId.'",
+        $PostData = '{
+                     "media_id":"' . $MediaId . '",
                      "index":0,
                      "articles": {
                           "title": "今天是一个很冷的天气",
@@ -264,7 +281,14 @@ class IndexController extends Controller
     }
 
     //测试获取素材总数
-    public function GetMaterialCount(){
+    public function GetMaterialCount()
+    {
         GetMaterialCount();
+    }
+
+    //测试添加客服
+    public function AddCustomService()
+    {
+        AddCustomService();
     }
 }
