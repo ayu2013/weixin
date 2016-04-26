@@ -106,19 +106,23 @@ class IndexController extends Controller
     }
 
     //测试微商城
-    public function PostMenu(){
+    public function PostMenu()
+    {
         PostMenu();
     }
 
     //测试获取菜单
-    public function GetMenu(){
+    public function GetMenu()
+    {
         GetMenu();
     }
 
     //测试获取客服
-    public function GetOnlineKFList(){
+    public function GetOnlineKFList()
+    {
         GetOnlineKFList();
     }
+
     //测试群发（图片、图文）
     public function test()
     {
@@ -290,5 +294,51 @@ class IndexController extends Controller
     public function AddCustomService()
     {
         AddCustomService();
+    }
+
+    //测试新增
+    public function testadd()
+    {
+        CreateGroups();
+    }
+
+    //测试查询
+    public function testselect()
+    {
+        GetGroups();
+    }
+
+    //测试删除分组
+    public function MoveIdGroups()
+    {
+        MoveIdGroups();
+    }
+
+    //修改分组
+    public function GetIdGroups()
+    {
+        GetIdGroups();
+    }
+
+    //批量获取用户基本信息==
+    public function BatchGetUserBase()
+    {
+        $post_data = '{
+            "user_list": [
+               {
+                   "openid": "oeFOQuE9GrZzZByf8M_W4_0GPhT4", 
+                   "lang": "zh-CN"
+               }, 
+               {
+                   "openid": "oeFOQuGa9tgcekN4WLIV53iuR9Hg", 
+                   "lang": "zh-CN"
+               },
+               {
+                   "openid": "oeFOQuAodWuU6KkReh9MEM3Ca7aE", 
+                   "lang": "zh-CN"
+               }
+            ]
+        }';
+        BatchGetUserBase($post_data);
     }
 }

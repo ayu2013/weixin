@@ -141,12 +141,98 @@ if (!function_exists('GetWXIPList')) {
     }
 }
 
+//新增用户组
+if (!function_exists('CreateGroups')) {
+    function CreateGroups()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/groups/create?access_token=" . $AccessToken;
+        $post_data = '{
+                      "group":{"name":"金卡会员"}
+                    }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//修改用户组
+if (!function_exists('UpdateGroups')) {
+    function UpdateGroups()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/groups/update?access_token=" . $AccessToken;
+        $post_data = '{
+                      "group":{"id":101,"name":"超级至尊无敌金卡会员"}
+                    }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//查询用户所在分组
+if (!function_exists('GetIdGroups')) {
+    function GetIdGroups()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/groups/getid?access_token=" . $AccessToken;
+        $post_data = '{
+                      "openid":"oeFOQuAodWuU6KkReh9MEM3Ca7aE"
+                    }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//移动用户到指定分组
+if (!function_exists('MoveIdGroups')) {
+    function MoveIdGroups()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/groups/members/update?access_token=" . $AccessToken;
+        $post_data = '{
+                      "openid":"oeFOQuAodWuU6KkReh9MEM3Ca7aE",
+                      "to_groupid":101
+                    }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+//查询用户组
+if (!function_exists('GetGroups')) {
+    function GetGroups()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/groups/get?access_token=" . $AccessToken;
+        $output = CURLGet($urls);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//删除用户组
+if (!function_exists('DelGroups')) {
+    function DelGroups()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/groups/delete?access_token=" . $AccessToken;
+        $post_data = '{
+                      "group":{"id":"100"}
+                    }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
 //拉取用户列表
 if (!function_exists('GetUserList')) {
     function GetUserList()
     {
         $AccessToken = GetWXAccessToken();
-        // $AccessToken=session('access_token');
         $urls = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=" . $AccessToken . "&next_openid=";
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
@@ -174,6 +260,18 @@ if (!function_exists('GetUserBase')) {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $AccessToken . "&openid=" . $OpenId . "&lang=zh_CN";
         $output = CURLGet($urls);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//批量获取用户基本信息，传入用户的OPENID
+if (!function_exists('BatchGetUserBase')) {
+    function BatchGetUserBase($post_data)
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=" . $AccessToken;
+        $output = CURLPost($urls,$post_data);
         $arr = json_decode($output, true);
         dump($arr);
     }
@@ -243,9 +341,10 @@ if (!function_exists('PostMenu')) {
 
 //获取自定义菜单
 if (!function_exists('GetMenu')) {
-    function GetMenu(){
-        $AccessToken=GetWXAccessToken();
-        $urls="https://api.weixin.qq.com/cgi-bin/menu/get?access_token=".$AccessToken;
+    function GetMenu()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token=" . $AccessToken;
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
         dump($arr);
@@ -428,10 +527,11 @@ if (!function_exists('AddCustomService')) {
 }
 
 //获取在线客服接待信息
-if(!function_exists('GetOnlineKFList')){
-    function GetOnlineKFList(){
-        $AccessToken=GetWXAccessToken();
-        $urls="https://api.weixin.qq.com/cgi-bin/customservice/getonlinekflist?access_token=".$AccessToken;
+if (!function_exists('GetOnlineKFList')) {
+    function GetOnlineKFList()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/customservice/getonlinekflist?access_token=" . $AccessToken;
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
         dump($arr);
