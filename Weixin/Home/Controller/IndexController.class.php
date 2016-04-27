@@ -23,7 +23,12 @@ class IndexController extends Controller
         if (strtolower($postObj->MsgType) == "event") {
             //如果是关注 subscribe(订阅)
             if (strtolower($postObj->Event) == "subscribe") {
-                $Content = "感谢关注我的个人微信，最近进展如下：" . "\n" . "1、完成SDK（接入校验、关注回复、纯文本回复、多图文回复）的接入;" . "\n" . "2、TOKEN、APPID、APPSCRET等写入到配置文件中，以后直接修改配置文件就行了;" . "\n" . "3、采用CURL采集ACCESS_TOKEN，并封装为SDK。";
+                $Content = "欢迎关注";
+                //如果是扫描关注，并且是已经确定了是金卡的
+                if(strtolower($postObj->EventKey) == "qrscene_123"){
+                    $Content = $postObj->FromUserName;
+                    MoveIdGroups($postObj->FromUserName,101);
+                }
                 $Subscribe = new IndexModel();
                 $Subscribe->Subscribe($postObj, $Content);
             } else if (strtolower($postObj->Event) == "click") {
@@ -70,8 +75,8 @@ class IndexController extends Controller
                 case '个人信息':
                     $Content = GetUserBase($postObj->FromUserName);
                     break;
-                case '网址':
-                    $Content = "<a href='http://www.sc-www.com'>前端笔记</a>";
+                case '绑定':
+                    $Content = "<a href='/'>前端笔记</a>";
                     break;
                 case '笔记':
                     $Content = "1、完成SDK（接入校验、关注回复、纯文本回复、多图文回复）的接入;" . "\n" . "2、TOKEN、APPID、APPSCRET等写入到配置文件中，以后直接修改配置文件就行了;" . "\n" . "3、采用CURL采集ACCESS_TOKEN，并封装为SDK。" . date('Y-m-d H:i:s', time());
@@ -92,7 +97,7 @@ class IndexController extends Controller
     public function get()
     {
         $openid = $_GET['openid'];
-        getUserBase($openid);
+        //getUserBase($openid);
 //        $length = $_GET['length'];
 //        $arr = GetMaterialList($length);
 //        dump($arr);
@@ -302,6 +307,9 @@ class IndexController extends Controller
         CreateGroups();
     }
 
+    public function PostConditionalMenu(){
+        PostConditionalMenu();
+    }
     //测试查询
     public function testselect()
     {
@@ -311,7 +319,8 @@ class IndexController extends Controller
     //测试删除分组
     public function MoveIdGroups()
     {
-        MoveIdGroups();
+        $OpenId="oeFOQuAodWuU6KkReh9MEM3Ca7aE";
+        MoveIdGroups($OpenId,0);
     }
 
     //修改分组
@@ -320,6 +329,9 @@ class IndexController extends Controller
         GetIdGroups();
     }
 
+    public function UpdateGroups(){
+        UpdateGroups();
+    }
     //批量获取用户基本信息==
     public function BatchGetUserBase()
     {
@@ -340,5 +352,14 @@ class IndexController extends Controller
             ]
         }';
         BatchGetUserBase($post_data);
+    }
+
+    //测试创建永久二维码
+    public function CreateQRCode(){
+        CreateQRCode();
+    }
+
+    public function xzewm(){
+        xzewm();
     }
 }

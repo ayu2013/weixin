@@ -148,7 +148,7 @@ if (!function_exists('CreateGroups')) {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/groups/create?access_token=" . $AccessToken;
         $post_data = '{
-                      "group":{"name":"金卡会员"}
+                      "group":{"name":"普通会员"}
                     }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
@@ -163,7 +163,7 @@ if (!function_exists('UpdateGroups')) {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/groups/update?access_token=" . $AccessToken;
         $post_data = '{
-                      "group":{"id":101,"name":"超级至尊无敌金卡会员"}
+                      "group":{"id":101,"name":"金卡会员"}
                     }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
@@ -188,17 +188,17 @@ if (!function_exists('GetIdGroups')) {
 
 //移动用户到指定分组
 if (!function_exists('MoveIdGroups')) {
-    function MoveIdGroups()
+    function MoveIdGroups($OpenId,$ToGroupid)
     {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/groups/members/update?access_token=" . $AccessToken;
         $post_data = '{
-                      "openid":"oeFOQuAodWuU6KkReh9MEM3Ca7aE",
-                      "to_groupid":101
+                      "openid":"'.$OpenId.'",
+                      "to_groupid":'.$ToGroupid.'
                     }';
         $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
-        dump($arr);
+        return $post_data;
     }
 }
 //查询用户组
@@ -261,7 +261,7 @@ if (!function_exists('GetUserBase')) {
         $urls = "https://api.weixin.qq.com/cgi-bin/user/info?access_token=" . $AccessToken . "&openid=" . $OpenId . "&lang=zh_CN";
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
-        dump($arr);
+        return $arr;
     }
 }
 
@@ -271,7 +271,7 @@ if (!function_exists('BatchGetUserBase')) {
     {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/user/info/batchget?access_token=" . $AccessToken;
-        $output = CURLPost($urls,$post_data);
+        $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
         dump($arr);
     }
@@ -300,36 +300,26 @@ if (!function_exists('PostMenu')) {
         $post_data = '{
                          "button":[
                          {
-                              "name":"我的博客",
-                              "sub_button":[
-                                    {
-                                         "type":"view",
-                                         "name":"前端笔记",
-                                         "url":"http://www.sc-www.com"
-                                    }
-                              ]
+                              "type":"view",
+                              "name":"商城",
+                              "url":"http://mp.weixin.com"
                          },
                          {
                                "type":"click",
-                               "name":"ECHO ME",
-                               "key":"introduct"
+                               "name":"联系我们",
+                               "key":"aboutus"
                          },
                          {
-                               "name":"二级菜单",
+                               "name":"会员中心",
                                "sub_button":[
                                 {
-                                   "type": "location_select", 
-                                   "name": "发送位置",                   
-                                   "key": "rselfmenu_2_0"
+                                   "type": "view", 
+                                   "name": "申请成为金卡会员",                   
+                                   "url": "http://www.baidu.com"
                                 },{
-                                    "type": "pic_photo_or_album", 
-                                    "name": "拍照或者相册发图", 
-                                    "key": "rselfmenu_1_1", 
-                                    "sub_button": [ ]
-                                },{
-                                     "type":"view",
-                                     "name":"前端笔记",
-                                     "url":"http://192.168.0.38/index.php?m=App&c=Index&a=index"
+                                    "type": "view", 
+                                    "name": "查看订单", 
+                                    "url":"http://www.qq.com"
                                 }]
                          }]
                     }';
@@ -346,6 +336,47 @@ if (!function_exists('GetMenu')) {
         $AccessToken = GetWXAccessToken();
         $urls = "https://api.weixin.qq.com/cgi-bin/menu/get?access_token=" . $AccessToken;
         $output = CURLGet($urls);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//创建个性化菜单
+if (!function_exists('PostConditionalMenu')) {
+    function PostConditionalMenu()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/menu/addconditional?access_token=" . $AccessToken;
+        $post_data = '{
+                        "button":[
+                         {
+                              "type":"view",
+                              "name":"商城",
+                              "url":"http://mp.weixin.com"
+                         },
+                         {
+                               "type":"click",
+                               "name":"联系我们",
+                               "key":"aboutus"
+                         },
+                         {
+                               "name":"会员中心",
+                               "sub_button":[
+                                {
+                                   "type": "view", 
+                                   "name": "新增经销商",                   
+                                   "url": "http://www.baidu.com"
+                                },{
+                                    "type": "view", 
+                                    "name": "查看订单", 
+                                    "url":"http://www.qq.com"
+                                }]
+                         }],
+                        "matchrule":{
+                          "group_id":"101"
+                          }
+                        }';
+        $output = CURLPost($urls, $post_data);
         $arr = json_decode($output, true);
         dump($arr);
     }
@@ -535,5 +566,37 @@ if (!function_exists('GetOnlineKFList')) {
         $output = CURLGet($urls);
         $arr = json_decode($output, true);
         dump($arr);
+    }
+}
+
+
+//帐号管理
+//永久二维码
+if (!function_exists('CreateQRCode')) {
+    function CreateQRCode()
+    {
+        $AccessToken = GetWXAccessToken();
+        $urls = "https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=" . $AccessToken;
+        $post_data = '{
+                        "action_name": "QR_LIMIT_STR_SCENE",
+                         "action_info": {
+                            "scene": {"scene_str": "123"}
+                         }
+                    }';
+        $output = CURLPost($urls, $post_data);
+        $arr = json_decode($output, true);
+        dump($arr);
+    }
+}
+
+//下载二维码--转成图片
+if (!function_exists('xzewm')) {
+    function xzewm()
+    {
+        $TICKET = urlencode("gQF/8DoAAAAAAAAAASxodHRwOi8vd2VpeGluLnFxLmNvbS9xLzNFT2pqT25sRXhkcUhBZUMyMnU4AAIEmmUgVwMEAAAAAA==");
+        $urls = "https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=" . $TICKET;
+        $fileInfo = GetFiles($urls);
+        $filename = time() . ".jpg";
+        DownloadFiles($filename, $fileInfo["body"]);
     }
 }
