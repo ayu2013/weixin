@@ -2,7 +2,7 @@
 ## 说明
 
 文件基于ThinkPHP3.2.3，不懂的可以去官网查看一下，或者在网上搜索教程看一下！
-配置文件在Weixin/Home/Conf里面，接口放在weixin/Home/Common 的function.php里面,后期会陆续更新！
+配置文件在Weixin/Home/Conf里面，接口放在weixin/Home/Common 的function.php里面,关注的过少，不再更新！！！！
 
 ## 已有接口
 
